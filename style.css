@@ -1353,12 +1353,9 @@ main {
 @media screen and (max-width: 600px) {
     /* Estilos específicos para dispositivos con un ancho máximo de 600px */
     .welcomeMessage h1 {
-        width: 90vw;
+        width: 95vw;
     }
 }
-
-
-
 
 span {
     color: #E1D12C;
