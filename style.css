@@ -1355,19 +1355,6 @@ main {
     .welcomeMessage h1 {
         width: 95vw;
     }
-
-    .titleMobile {
-        width: auto;
-        display: flex !important;
-        position: absolute;
-        text-align: center;
-        font-size: 80px;
-        left: -25vw;
-        top: -90vh;
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-    }
 }
 
 span {
@@ -1377,12 +1364,6 @@ span {
 img {
     width: 300px;
 }
-
-.titleMobile {
-    display: none;
-}
-
-
 
 .welcomeMessage button {
     margin-top: 40px;
