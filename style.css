@@ -35,7 +35,7 @@ main {
     font-weight: 600;
     font-style: normal;
     height: 300px;
-    width: 450px;
+    width: 300px;
     transform: translate(-50%, -50%);
     background-color: #fff;
     color: #000;
@@ -1349,6 +1349,16 @@ main {
 .welcomeMessage h1 {
     width: 600px;
 }
+
+@media screen and (max-width: 600px) {
+    /* Estilos específicos para dispositivos con un ancho máximo de 600px */
+    .welcomeMessage h1 {
+        width: 90vw;
+    }
+}
+
+
+
 
 span {
     color: #E1D12C;
